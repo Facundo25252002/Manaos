@@ -5,7 +5,6 @@
     <string name="Entrar">Entrar</string>
     <string name="todo">TODO</string>
     <string name="tituloHistoria">Un Poco de Historia</string>
-    <string name="textoHistoria">El dueño de la empresa, Orlando Canido, en sus comienzos tuvo una fábrica de soda y distribuía distintas marcas de gaseosas. En el año 2000 impuso una marca llamada \"Sao\", de la cual compraba la producción y la distribuía, y debido a su nombre muchas personas creían que era una gaseosa importada. Tiempo después el dueño de Sao decidió comercializar su producto por su propia cuenta, sin darle participación a Canido.\n\nCanido, quien primeramente había decidido dedicarse al campo, cambió de idea y volvió a dedicarse al negocio de las gaseosas, creando su propia marca. El nombre Manaos surgió como competencia a la gaseosa Sao, por ser el nombre de otra ciudad de Brasil. Cuenta que se arrepiente de esta decisión:\n\nYo tenía que competir con la misma marca que había impuesto. Entonces le puse ‘Manaos’, porque también parecía brasilera. Maldigo la hora en que se me ocurrió Manaos. Le hubiera puesto ‘El Pampero’ o ‘Las Cataratas’, qué sé yo, pero no había ninguna intención de internacionalizar la marca.\n\nDe acuerdo a un estudio focalizado principalmente en supermercados e hipermercados del área metropolitana de Buenos Aires, por la consultora Kantar Worldpanel en el año 2018, se dio un gran aumento en el consumo de Manaos por la creciente tendencia a adquirir marcas de menor precio. La bebida incorporó setecientos mil nuevos hogares consumidores en el último año, siendo la que más familias sumó dentro del top 10 de marcas de mayor crecimiento.\n\nEn 2019 Manaos adquiere la empresa Pindapoy de jugos frutales y amplia su planta a 19 000 metros cuadrados.</string>
     <string name="desarrollador">Desarrollador</string>
     <string name="Programador">Programador De la App</string>
     <string name="correo">facu25252002@gmail.com</string>
@@ -13,4 +12,24 @@
     <string name="logodesarrollador">logoDesarrollador</string>
     <string name="imagendesarrollador">ImagenDesarrollador</string>
     <string name="imagencorreo">imagenCorreo</string>
+    <string name="imagenbotella">Imagen de botella y Vaso</string>
+    <string name="principal">" principal"</string>
+    <string name="aboutdev">About Dev</string>
+    <string name="manaoshistory">Manaos History</string>
+    <string name="exit">Exit</string>
+    <string name="maildev">facu25252002@gmail.com</string>
+    <string name="asunto">Subject</string>
+    <string name="enviarmail">Send</string>
+    <string name="contenidomail">Content</string>
+    <string name="enviarmaildev">Send Mail</string>
+    <string name="Enter">Enter</string>
+    <string name="tituloHistory">History</string>
+    <string name="textoHistory">The owner of the company, Orlando Canido, in the beginning had a soda factory and distributed different brands of soft drinks. In the year 2000, it imposed a brand called \\\"Sao\\\", from which it bought the production and distributed it, and due to its name, many people believed that it was an imported soft drink. Some time later, the owner of Sao decided to market his product on his own, without involving Canido.\\n\\nCanido, who had first decided to dedicate himself to the field, changed his mind and went back to the soda business, creating his own brand. The name Manaus arose as competition to the Sao soft drink, because it is the name of another city in Brazil. He says that he regrets this decision:\\n\\nI had to compete with the same brand that he had imposed. So I named her \'Manaus\', because she also seemed Brazilian. I curse the time that Manaus occurred to me. I would have put \'El Pampero\' or \'Las Cataratas\', what do I know, but there was no intention of internationalizing the brand.\\n\\nAccording to a study focused mainly on supermarkets and hypermarkets in the metropolitan area of ​​Buenos Aires, due to the consultant Kantar Worldpanel in 2018, there was a large increase in consumption in Manaus due to the growing tendency to acquire lower-priced brands. The drink incorporated seven hundred thousand new consumer households in the last year, being the one that added the most families within the top 10 fastest growing brands.\\n\\nIn 2019 Manaus acquired the Pindapoy fruit juice company and expanded its plant to 19,000 meters squares.</string>
+    <string name="btndescripcionProgramador">Development</string>
+    <string name="OfficialSite">Official Site</string>
+    <string name="Layoutprincipal">Layout ativity principal</string>
+    <string name="descripciondeimagenhorizontalmanaos">Imagen horizontal de gaseosa Manaos</string>
+    <string name="btnLlamarnos">Call Us</string>
+    <string name="txtlocation">Location</string>
+    <string name="title_activity_map_manaos">MapManaos</string>
 </resources>

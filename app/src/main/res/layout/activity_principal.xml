@@ -2,78 +2,81 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/principal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#D5F80202"
+    android:contentDescription="@string/Layoutprincipal"
     tools:context=".Principal">
 
 
+    <ImageView
+        android:id="@+id/imgmanaoshorizontal"
+        android:layout_width="0dp"
+        android:layout_height="169dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/descripciondeimagenhorizontalmanaos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/manaoshotizontal" />
+
+
     <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints">
+        android:id="@+id/scrollViewprincipal"
+        android:layout_width="320dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/tituloHistoria"
-                android:layout_width="match_parent"
-                android:layout_height="42dp"
-                android:background="#DA6464"
-                android:fontFamily="sans-serif-black"
-                android:includeFontPadding="true"
-                android:text="@string/tituloHistoria"
-                android:textColor="#212121"
-                android:textIsSelectable="false"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.022" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="398dp"
-                android:layout_height="139dp"
-                android:background="#F43F3F"
-                android:text="@string/textoHistoria"
-                android:textColor="#000000"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.113"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.111" />
-
-            <ImageView
-                android:id="@+id/botellavaso"
-                android:layout_width="match_parent"
-                android:layout_height="387dp"
-                android:scrollbarSize="5dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.707"
-                app:srcCompat="@drawable/hielovasogaseosa" />
+            android:orientation="vertical"
+            android:padding="20dp">
 
             <Button
-                android:id="@+id/btnprogramador"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Programador"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.761"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.831" />
+                android:id="@+id/btnlocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#AE4AC380"
+                android:text="@string/txtlocation"
+                android:textColor="#4A148C"
+                android:translationX="0dp"
+                app:icon="@drawable/baseline_location_on_24" />
 
+            <Button
+                android:id="@+id/btncallus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:backgroundTint="#AE4AC380"
+                android:text="@string/btnLlamarnos"
+                android:textColor="#4A148C"
+                android:translationX="0dp"
+                app:icon="@android:drawable/stat_sys_phone_call" />
 
+            <Button
+                android:id="@+id/btnwebsite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#AE4AC380"
+                android:text="@string/OfficialSite"
+                android:textColor="#4A148C"
+                app:icon="@drawable/website"
+                app:layout_constraintTop_toBottomOf="@+id/btncallus" />
 
 
         </LinearLayout>
@@ -81,6 +84,20 @@
     </ScrollView>
 
 
+    <Button
+        android:id="@+id/btnprogramador"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/btndescripcionProgramador"
+        app:icon="@drawable/ic_dev"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
