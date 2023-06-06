@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutdevelop"
+        android:icon="@drawable/ic_dev"
+        android:title="@string/aboutdev" />
+    <item
+        android:id="@+id/manaoshist"
+        android:icon="@drawable/ic_manaos_history"
+        android:title="@string/manaoshistory" />
+    <item
+        android:id="@+id/exitapp"
+        android:icon="@drawable/ic_exit"
+        android:title="@string/exit"
+        app:showAsAction="ifRoom" />
+</menu>

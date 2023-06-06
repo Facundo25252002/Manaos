@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Manaos</string>
+    <string name="pass">Contraseña</string>
+    <string name="User">Usuario</string>
+    <string name="Entrar">Entrar</string>
+    <string name="todo">TODO</string>
+    <string name="tituloHistoria">Un Poco de Historia</string>
+    <string name="desarrollador">Desarrollador</string>
+    <string name="Programador">Programador De la App</string>
+    <string name="correo">facu25252002@gmail.com</string>
+    <string name="nombredesarrollador">Facundo Maldonado</string>
+    <string name="logodesarrollador">logoDesarrollador</string>
+    <string name="imagendesarrollador">ImagenDesarrollador</string>
+    <string name="imagencorreo">imagenCorreo</string>
+    <string name="imagenbotella">Imagen de botella y Vaso</string>
+    <string name="principal">" principal"</string>
+    <string name="aboutdev">About Dev</string>
+    <string name="manaoshistory">Historia de Manaos</string>
+    <string name="exit">Exit</string>
+    <string name="maildev">facu25252002@gmail.com</string>
+    <string name="asunto">Asunto</string>
+    <string name="enviarmail">Enviar</string>
+    <string name="contenidomail">Contenido</string>
+    <string name="enviarmaildev">Enviar Mail</string>
+    <string name="Enter">Entrar</string>
+    <string name="tituloHistory">Historia</string>
+    <string name="textoHistory">El dueño de la empresa, Orlando Canido, en sus comienzos tuvo una fábrica de soda y distribuía distintas marcas de gaseosas. En el año 2000 impuso una marca llamada \"Sao\", de la cual compraba la producción y la distribuía, y debido a su nombre muchas personas creían que era una gaseosa importada. Tiempo después el dueño de Sao decidió comercializar su producto por su propia cuenta, sin darle participación a Canido.\n\nCanido, quien primeramente había decidido dedicarse al campo, cambió de idea y volvió a dedicarse al negocio de las gaseosas, creando su propia marca. El nombre Manaos surgió como competencia a la gaseosa Sao, por ser el nombre de otra ciudad de Brasil. Cuenta que se arrepiente de esta decisión:\n\nYo tenía que competir con la misma marca que había impuesto. Entonces le puse ‘Manaos’, porque también parecía brasilera. Maldigo la hora en que se me ocurrió Manaos. Le hubiera puesto ‘El Pampero’ o ‘Las Cataratas’, qué sé yo, pero no había ninguna intención de internacionalizar la marca.\n\nDe acuerdo a un estudio focalizado principalmente en supermercados e hipermercados del área metropolitana de Buenos Aires, por la consultora Kantar Worldpanel en el año 2018, se dio un gran aumento en el consumo de Manaos por la creciente tendencia a adquirir marcas de menor precio. La bebida incorporó setecientos mil nuevos hogares consumidores en el último año, siendo la que más familias sumó dentro del top 10 de marcas de mayor crecimiento.\n\nEn 2019 Manaos adquiere la empresa Pindapoy de jugos frutales y amplia su planta a 19 000 metros cuadrados.</string>
+    <string name="btndescripcionProgramador">Programador</string>
+    <string name="OfficialSite">Sitio Oficial</string>
+    <string name="Layoutprincipal">Layout ativity principal</string>
+    <string name="descripciondeimagenhorizontalmanaos">Imagen horizontal de gaseosa Manaos</string>
+    <string name="btnLlamarnos">Contactenos</string>
+    <string name="txtlocation">Ubicacion</string>
+    <string name="title_activity_map_manaos">MapManaos</string>
+
+</resources>
