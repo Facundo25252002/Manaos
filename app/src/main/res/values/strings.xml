@@ -32,4 +32,10 @@
     <string name="btnLlamarnos">Call Us</string>
     <string name="txtlocation">Location</string>
     <string name="title_activity_map_manaos">MapManaos</string>
+    <string name="toastparametros">One of the two parameters is wrong, try again</string>
+    <string name="toastacceso">Access</string>
+    <string name="toastBienvenidosperfil">Welcome to my profile</string>
+    <string name="toastvamosmanaos">Vamos Manaos!!</string>
+    <string name="toastpuedesescribiremail">Now you can write your e-mail</string>
+
 </resources>

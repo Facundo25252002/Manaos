@@ -32,12 +32,12 @@ public class Principal extends AppCompatActivity {
         if (itemId == R.id.aboutdevelop) {
             Intent intent = new Intent(Principal.this, Acercade.class);
             startActivity(intent);
-            Toast.makeText(Principal.this, "Bienvenidos a Mi Perfil", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Principal.this,getString(R.string.toastBienvenidosperfil), Toast.LENGTH_SHORT).show();
             return true;
         } else if (itemId == R.id.manaoshist) {
             Intent intenthistoria = new Intent(Principal.this, HistoriaManaos.class);
             startActivity(intenthistoria);
-            Toast.makeText(Principal.this, "Vamos Manaos!!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Principal.this, getString(R.string.toastvamosmanaos), Toast.LENGTH_SHORT).show();
             return true;
         } else if (itemId == R.id.exitapp) {
             finish();
@@ -86,7 +86,7 @@ public class Principal extends AppCompatActivity {
         btnprogramador.setOnClickListener(view -> {
             Intent intent = new Intent(Principal.this,Acercade.class);
             startActivity(intent);
-            Toast.makeText(Principal.this, "Welcome to my Profile!!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Principal.this, getString(R.string.toastBienvenidosperfil), Toast.LENGTH_SHORT).show();
         });
 
     }

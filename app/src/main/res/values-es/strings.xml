@@ -31,7 +31,12 @@
     <string name="Layoutprincipal">Layout ativity principal</string>
     <string name="descripciondeimagenhorizontalmanaos">Imagen horizontal de gaseosa Manaos</string>
     <string name="btnLlamarnos">Contactenos</string>
-    <string name="txtlocation">Ubicacion</string>
+    <string name="txtlocation">Ubicación</string>
     <string name="title_activity_map_manaos">MapManaos</string>
+    <string name="toastparametros">Uno de los dos parámetros está mal</string>
+    <string name="toastacceso">Acceso Otorgado</string>
+    <string name="toastBienvenidosperfil">Bienvenidos a mi perfil</string>
+    <string name="toastvamosmanaos">Vamos Manaos!!</string>
+    <string name="toastpuedesescribiremail">Ahora puedes esccribir tu e-mail</string>
 
 </resources>

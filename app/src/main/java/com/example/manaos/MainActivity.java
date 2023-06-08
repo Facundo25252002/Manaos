@@ -1,19 +1,13 @@
 package com.example.manaos;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import kotlinx.coroutines.MainCoroutineDispatcher;
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -37,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
                     Intent intent = new Intent(MainActivity.this, Principal.class);
                     startActivity(intent);
-                    Toast.makeText(MainActivity.this, "Access", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this,getString(R.string.toastacceso), Toast.LENGTH_SHORT).show();
 
                 } else {
-                    Toast.makeText(MainActivity.this, "One of the two parameters is wrong, try again", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, getString(R.string.toastparametros), Toast.LENGTH_SHORT).show();
                 }
             }
         });
