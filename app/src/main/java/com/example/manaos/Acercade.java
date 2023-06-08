@@ -22,7 +22,7 @@ public class Acercade extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(Acercade.this, EnvioMail.class);
                 startActivity(intent);
-                Toast.makeText(Acercade.this, "Now you can write your email", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Acercade.this, getString(R.string.toastpuedesescribiremail), Toast.LENGTH_SHORT).show();
             }
         });
     }
